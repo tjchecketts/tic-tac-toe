@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Game from './components/Game';
+import React, { Component } from 'react'
+import Game from './components/Game'
 
 class App extends Component {
   render() {
@@ -10,8 +10,8 @@ class App extends Component {
         </h1>
         <Game />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

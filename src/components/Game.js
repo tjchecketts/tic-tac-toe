@@ -1,5 +1,5 @@
-import React from 'react';
-import Board from './Board';
+import React from 'react'
+import Board from './Board'
 
 class Game extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Game extends React.Component {
           <ol>{/* TODO */}</ol>
         </div>
       </div>
-    );
+    )
   }
 }
 
