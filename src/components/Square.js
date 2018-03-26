@@ -2,7 +2,11 @@ import React from 'react'
 
 const Square = (props) => {
   return (
-    <button className="square" onClick={ props.onClick }>
+    <button 
+      className="square" 
+      onClick={ props.onClick }
+      style={{ cursor: 'pointer' }}
+    >
       { props.value }
     </button>
   )
